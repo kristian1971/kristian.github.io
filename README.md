@@ -1,2 +1,2 @@
-# kristian.github.io
-IBM Applied Data Science Capstone project
+# IBM Applied Data Science Capstone project
+
