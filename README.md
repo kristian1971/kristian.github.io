@@ -3,6 +3,7 @@
 ## A description of the problem and a discussion of the background
 
 I will try to sugest the best place for the restaurant in Zagreb. Zagreb is the capital of the Croatia and Croatia is one small country in the European Union. Zagreb is the biggest city in the Croatia and it has almost 800 thousands people. Zagreb is devided in 17 districts and whole city area has 641 square kilometers. Some districts are residential and some are more industrial. I hope that type of these districts will be obvious. You can find the list of districts: https://en.wikipedia.org/wiki/Zagreb#City_districts
+![alt text](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/1.png)
 
 ## A description of the data and how it will be used to solve the problem
 
