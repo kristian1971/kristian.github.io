@@ -3,15 +3,14 @@
 ## A description of the problem and a discussion of the background
 
 I will try to sugest the best place for the restaurant in Zagreb. Zagreb is the capital of the Croatia and Croatia is one small country in the European Union. Zagreb is the biggest city in the Croatia and it has almost 800 thousands people. Zagreb is devided in 17 districts and whole city area has 641 square kilometers. Some districts are residential and some are more industrial. I hope that type of these districts will be obvious. You can find the list of districts: https://en.wikipedia.org/wiki/Zagreb#City_districts
-
+<p align="center">
 ![The list of districts](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/1.png)
-
+</p>
 ## A description of the data and how it will be used to solve the problem
 
 Croatia is not as digitized as Hong Kong or Canada, so I will have to extract some data manually. Fortunately, I have found the map of Zagreb with added border layer of all districts. Here is the link:
 
 https://geoportal.zagreb.hr/Karta
-
 ![Map of Zagreb with districts](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/2.png)
 
 Next step is to find lattitude and longitude for significant border points of every district and put them in CSV files, upload files to https://cloud.ibm.com and find central point of every district of Zagreb. I will use one simple algorithm to find central point in Paython.
