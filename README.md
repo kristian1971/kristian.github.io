@@ -21,3 +21,5 @@ Clustering is the final part and the k-means will be used, because here we have 
 
 On the end I hope that I will be able to recommend in which district to open a new restaurant!
 
+_________________________________________________________________________________________________________
+
