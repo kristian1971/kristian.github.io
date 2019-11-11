@@ -38,9 +38,9 @@ After that I used some python code from this gist (https://gist.github.com/tlhun
 
 Another source of data is Foursquare service and I decided to get data of recommended venues inside 1500 meters radius of every district, calculate the top ten most common venues by its category as features.
 
-##Methodology
+## Methodology
 
-#Explore area and data
+# Explore area and data
 
 I used folium library to mark central points of every district in Zagreb. It can be seen in the next figure:
 
@@ -60,13 +60,13 @@ One-hot encoding table based on the vanues categories, gets mean of each categor
 
 In one moment i have realised that one district is missing. It was district called Brezovica and in this district was without any venue. I deleted it from table. It is the district with the lowest population density by square kilometer.
 
-#Clustering
+# Clustering
 
 k-means is a clustering algorithm that has been used in the project. This is an unsupervisied learning project because we have an unlabelled dataset. K-means clustering group data into k clusters so we can find a pattern in them. On the begining I tought that 6 clasters will be enough but finaly I chose 3 clasters. So here are results in the table:
 
 ![Table with clusters](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/8.png)
 
-##Results
+## Results
 
 In the next picture you can se distribution of clasters.
 
@@ -74,19 +74,19 @@ In the next picture you can se distribution of clasters.
 
 There are one main claster with 13 districts and two clasters with one and two districts. When you analyse picture you can see that red circles are in the hilly part of Zagreb as well as the green circle near the upper border of the picture. In the next three tables you can find five most common venues in every cluster. 
 
-#CLUSTER1
+# CLUSTER1
 
 ![Cluster 1](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/91.png)
 
-#CLUSTER2
+# CLUSTER2
 
 ![Cluster 2](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/92.png)
 
-#CLUSTER3
+# CLUSTER3
 
 ![Cluster 3](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/93.png)
 
-#Discusion and conclusion
+# Discusion and conclusion
 
 Final result is accurate but not so precise. More information like average income and population density will be helpful to rise quality of the result. On the other hand we get results and we can conclude that the biggist cluster is the best for the new restaurant mostly because other clusters are mostly in the filly and afforested part of Zagreb.
 
