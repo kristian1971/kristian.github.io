@@ -25,7 +25,7 @@ ________________________________________________________________________________
 
 # ...so let's see what have I done... :-)
 
-## 1.Data
+## 1. Data
 
 I have known that Croatia is not so digitized like western European countries or USA and as I expected, some tasks had to be done manualy. 
 First step was to find central point of every district in Zagreb. I used geoportal on the web adress: https://geoportal.zagreb.hr/Karta , so I made 17 CSV file with 10 to 20 points that define district polygon. These points were defined by longitude and letitude. Here is the figure of one CSV file open in Notepad++.
@@ -38,7 +38,7 @@ After that I used some python code from this gist (https://gist.github.com/tlhun
 
 Another source of data is Foursquare service and I decided to get data of recommended venues inside 1500 meters radius of every district, calculate the top ten most common venues by its category as features.
 
-## 2,Methodology
+## 2, Methodology
 
 I used folium library to mark central points of every district in Zagreb. It can be seen in the next figure:
 
@@ -58,13 +58,13 @@ One-hot encoding table based on the vanues categories, gets mean of each categor
 
 In one moment i have realised that one district is missing. It was district called Brezovica and in this district was without any venue. I deleted it from table. It is the district with the lowest population density by square kilometer.
 
-## 3.Clustering
+## 3. Clustering
 
 k-means is a clustering algorithm that has been used in the project. This is an unsupervisied learning project because we have an unlabelled dataset. K-means clustering group data into k clusters so we can find a pattern in them. On the begining I tought that 6 clasters will be enough but finaly I chose 3 clasters. So here are results in the table:
 
 ![Table with clusters](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/8.png)
 
-## 4.Results
+## 4. Results
 
 In the next picture you can se distribution of clasters.
 
@@ -84,7 +84,7 @@ There are one main claster with 13 districts and two clasters with one and two d
 
 ![Cluster 3](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/93.png)
 
-# 5.Discusion and conclusion
+# 5. Discusion and conclusion
 
 Final result is accurate but not so precise. More information like average income and population density will be helpful to rise quality of the result. On the other hand we get results and we can conclude that the biggist cluster is the best for the new restaurant mostly because other clusters are mostly in the filly and afforested part of Zagreb.
 
