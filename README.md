@@ -84,7 +84,7 @@ There are one main claster with 13 districts and two clasters with one and two d
 
 ![Cluster 3](https://raw.githubusercontent.com/kristian1971/kristian1971.github.io/master/pictures/93.png)
 
-# 5. Discusion and conclusion
+## 5. Discusion and conclusion
 
 Final result is accurate but not so precise. More information like average income and population density will be helpful to rise quality of the result. On the other hand we get results and we can conclude that the biggist cluster is the best for the new restaurant mostly because other clusters are mostly in the filly and afforested part of Zagreb.
 
